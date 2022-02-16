@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class ComparisonUc1 {
 	public static double lineValues() {
 		try (Scanner sc = new Scanner(System.in)) {
-			double x1, x2, y1, y2;
+			double a, xb, c, d;
 
 			System.out.println("Enter Values For First Point");
-			x1 = sc.nextDouble();
-			y1 = sc.nextDouble();
+			a = sc.nextDouble();
+			c = sc.nextDouble();
 
 			System.out.println("Enter Values For Second Point");
-			x2 = sc.nextDouble();
-			y2 = sc.nextDouble();
+			b = sc.nextDouble();
+			d = sc.nextDouble();
 
-			double lineLength = (double) Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+			double lineLength = (double) Math.sqrt(Math.pow((b - a), 2) + Math.pow((d - c), 2));
 			return lineLength;
 		}
 	}
