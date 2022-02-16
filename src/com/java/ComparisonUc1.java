@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ComparisonUc1 {
 	public static double lineValues() {
 		try (Scanner sc = new Scanner(System.in)) {
-			double a, xb, c, d;
+			double a, b, c, d;
 
 			System.out.println("Enter Values For First Point");
 			a = sc.nextDouble();
